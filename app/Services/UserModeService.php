@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Services;
+
+class UserModeService {
+
+    const WAITING = 'WAITING';
+    const DONE = 'DONE';
+    const REQUEST_ADDRESS = 'REQUEST_ADDRESS';
+    const REQUEST_CATEGORY = 'REQUEST_CATEGORY';
+    const REQUEST_CUSTOMER = 'REQUEST_CUSTOMER';
+    const REQUEST_SUM = 'REQUEST_SUM';
+    const REQUEST_PRODUCTS = 'REQUEST_PRODUCTS';
+    const REQUEST_PHONE_NUMBER = 'REQUEST_PHONE_NUMBER';
+    const REQUEST_CONFIRM = 'REQUEST_CONFIRM';
+    const REQUEST_SEARCH = 'REQUEST_SEARCH';
+
+}
